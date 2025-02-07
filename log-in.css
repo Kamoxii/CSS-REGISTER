@@ -8,43 +8,6 @@
 body {
     background-color: #27272B;
 }
-
-
-
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-}
-
-.video-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Keep the video behind everything */
-}
-
-.container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    height: 100vh;           /* Full height viewport */
-}
-
-.content {
-    display: flex;
-    justify-content: space-around; /* Space between the gif and image */
-    align-items: center;
-    gap: 6rem; /* Add some gap between GIF and image */
-}
-
-
-
-
 section {
     display: flex;
     align-items: center;
